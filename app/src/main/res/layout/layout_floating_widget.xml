@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!-- Main FAB Container -->
+    <FrameLayout
+        android:id="@+id/fab_container"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/bg_floating_idle"
+        android:elevation="8dp">
+
+        <ImageView
+            android:id="@+id/speak_btn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:src="@android:drawable/ic_btn_speak_now"
+            android:tint="@android:color/white"
+            android:contentDescription="@string/start_speaking" />
+
+    </FrameLayout>
+
+    <!-- Close Button (Small, Top Right) -->
+    <ImageView
+        android:id="@+id/close_btn"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="top|end"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/bg_floating_idle"
+        android:backgroundTint="#B0000000"
+        android:padding="4dp"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:tint="@android:color/white"
+        android:contentDescription="@string/close" />
+
+</FrameLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">闪电输入</string>
+    <string name="accessibility_service_label">闪电输入助手</string>
+    <string name="accessibility_service_description">通过语音指令辅助输入文本。</string>
+    <string name="permission_required">需要权限</string>
+    <string name="overlay_permission_desc">此应用需要悬浮窗权限以显示悬浮按钮。</string>
+    <string name="accessibility_permission_desc">此应用需要无障碍权限以输入文本。</string>
+    <string name="grant">授予</string>
+    <string name="listening">正在聆听...</string>
+    <string name="start_speaking">点击说话</string>
+</resources>
